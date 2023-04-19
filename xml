@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Prog1.xsl"?>
+
+<organization>
+    <org_details>
+        <org_name>EvolvingX Pvt.Ltd.</org_name>
+        <objective>-- Excel to infinity --</objective>
+    </org_details>
+	<department>
+        <dept_name>Department : Administration</dept_name>
+        <employee>
+            <sr_no>1.</sr_no>
+            <first_name> Samuel</first_name>
+            <last_name> Akhade</last_name>
+            <age> 31</age>
+            <phno> 3456781239</phno>
+            <salary>  25000</salary>
+        </employee>
+		<employee>
+            <sr_no>2.</sr_no>
+            <first_name> John</first_name>
+            <last_name> Samson</last_name>
+            <age> 30</age>
+            <phno> 8134567239</phno>
+            <salary>  27000</salary>
+        </employee>
+    </department>
+    <department>
+        <dept_name>Department : Accounts</dept_name>
+        <employee>
+            <sr_no>1.</sr_no>
+            <first_name> Bob</first_name>
+            <last_name> Fernandes</last_name>
+            <age> 28</age>
+            <phno> 3784561239</phno>
+            <salary>  28000</salary>
+        </employee>
+		<employee>
+            <sr_no>2.</sr_no>
+            <first_name> Alice</first_name>
+            <last_name> Lopez</last_name>
+            <age> 32</age>
+            <phno> 4567238139</phno>
+            <salary>  30000</salary>
+        </employee>
+    </department>
+    <department>
+        <dept_name>Department : Management</dept_name>
+        <employee>
+            <sr_no>1.</sr_no>
+            <first_name> Kishor</first_name>
+            <last_name> Bansode</last_name>
+            <age> 40</age>
+            <phno> 9456781239</phno>
+            <salary>  36000</salary>
+        </employee>
+		<employee>
+            <sr_no>2.</sr_no>
+            <first_name> Pradeep</first_name>
+            <last_name> Lokhande</last_name>
+            <age> 39</age>
+            <phno> 9735167239</phno>
+            <salary>  34500</salary>
+        </employee>
+    </department>
+</organization>
+		
