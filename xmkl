@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+    <html>
+    <body>
+    <h2>Employee Details</h2>
+    <table border="1">
+        <tr>
+            <th>Sr. No.</th>
+            <th>First Name</th>
+            <th>Last name</th>
+            <th>Age</th>
+            <th>Phone Number</th>
+            <th>Salary</th>
+        </tr>
+        <xsl:for-each select="organization/department/employee">
+        <tr>
+        <td><xsl:value-of select="sr_no"/></td>
+        <td><xsl:value-of select="first_name"/></td>
+        <td><xsl:value-of select="last_name"/></td>
+        <td><xsl:value-of select="age"/></td>
+        <td><xsl:value-of select="phno"/></td>
+        <td><xsl:value-of select="salary"/></td>
+        </tr>
+        </xsl:for-each>
+        </table>
+        </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
